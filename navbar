@@ -1,0 +1,66 @@
+*{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background: black;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 10px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600; 
+    color: white;
+    padding-left: 15px;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.stylized{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charser="utf-8">
+    <meta name="viewport" content="width=device-width, initial=scale=1">
+    <title>Webpage 1</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo">Your Name</div>
+            <ul>
+                <li><a href="#">Homepage</a></li>
+            </ul>
+        </div>
+    </nav>
+    .
+    .
+</body>
+<footer><a class="stylized">PHINMA-Araullo University</a><br>
+Maharlika Highway, Cabanatuan City</footer>
